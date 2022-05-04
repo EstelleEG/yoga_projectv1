@@ -39,13 +39,13 @@
   
   .tabs>a{      
     text-decoration: none;
-    font-size: 1.3rem;
-    color:#53b89a;
+    font-size: 1.5rem;
+    color:#1e8d6b;
     display:block;
   }
   
   .tabs>a:hover{  
-    color:#1e8d6b;
+    color:#53a89b;
   }
 
   .btnenrol button{
@@ -53,7 +53,8 @@
     height: 3rem;
     color: whitesmoke;
     background-color: #53b89a;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    border:none;
     margin-left: 0.5rem;
     font-size: 1.3rem;
     margin-right: 1%;
@@ -88,7 +89,7 @@
    /* Background colour if image is unavailable */
      background-color: #1e1e1e;
     /* Set a specified height */
-     height: 600px;
+     height: 45rem;
     /* Center the image */
      background-position: center;
     /* Do not repeat the image */
@@ -127,10 +128,10 @@
     height: 4rem;
     padding: 10px 30px;
     background-color: #53b89a;
-    border-radius: 10px;
     font-size: 1.5rem;
     color: whitesmoke;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    border:none;
     margin-top: 1.2rem;
     margin-left: 0.5rem;
     padding:1px;
@@ -196,6 +197,7 @@
   .textintro p{
     font-size: 1.3rem;
     line-height: 2rem;
+    color:black;
   }
   
   .textintro h3, h1, p{
@@ -214,7 +216,8 @@
     height: 4rem;
     color: whitesmoke;
     background-color: #53b89a;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    border:none;
     margin-top: 1.2rem;
     margin-left: 0.5rem;
     text-decoration: none;
@@ -238,7 +241,8 @@
     text-decoration: none;
     background-color: #53b89a;
     font-size: 1.5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    border:none;
     padding:1px;
     margin-right: 1%;
     margin-left: 0.5rem;
@@ -405,7 +409,7 @@
 }
 
 .infocontact span, p{
-  color: #53a89b;
+  color:black;
 }
 
 .infocontact h2{
@@ -624,7 +628,7 @@
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-color: #f1efef;
-  color: black;
+  
 }
 
 .wholeform form{
@@ -662,28 +666,29 @@
 }
 
 #contact-form button{
-  background-color: #53a89b;
-  color: whitesmoke;
-  margin-top: 2rem;
   padding:1.5rem;
+  font-size: 1.5rem;
   width:14rem;
-  height: 70px;
-  font-size: 1.7rem;
-  border-radius: 1rem;
+  height: 4rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border:none;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
   padding:1px;
-  border: 0.2rem solid #65b8ab;
+  margin-right: 1%;
+  cursor: pointer;
 }
 
 #contact-form button a{  /*link of btn*/
   text-decoration: none;
-  color:#1e1e1e;
+  color:whitesmoke;
 }
 
 #contact-form button:hover {
-  color:#1e1e1e;
   cursor: pointer;
-  box-shadow: 2px 2px 2px 0px #53a89b;
-  background-color: #53b89a;
+  background-color: #1e8d6b;
 }
 
 .h1cf{
@@ -774,8 +779,6 @@ footer {
   }
    
  
-
-  
 /*********************************** BURGER MENU ICON ***************************/
 .nav-toggle{
     display:none;
@@ -828,7 +831,7 @@ footer {
 /************************ BURGER MENU DROPDOWN *********************************/
   .nav-toggle{
     display:block;
-    color: whitesmoke;
+    color: #1e8d6b;
     background-color: transparent;
     font-size: 2rem;
     border-style: none;
@@ -842,7 +845,7 @@ footer {
   }
     
   .tabs a{
-    background-color: whitesmoke;
+    background-color: #53a89b;
     width:100%;
     font-size: 2rem;
     color:#1e1e1e;
@@ -854,7 +857,7 @@ footer {
   }
     
   .tabs a:hover{
-    color:grey;
+    color:whitesmoke;
   }
     
   nav{
@@ -970,7 +973,6 @@ footer {
     background-color: #1e1e1e;
   }
   
-
   .row:after {
     content: "";
     display: table;
@@ -998,4 +1000,3 @@ footer {
   .demo:hover {
     opacity: 1;
   }
-  
