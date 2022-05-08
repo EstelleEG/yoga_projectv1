@@ -622,7 +622,7 @@ footer {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    background-color: whitesmokesmokesmoke;
+    background-color: whitesmoke;
   }
     
   footer img{
@@ -651,8 +651,7 @@ footer {
   .iconsSMfooter i:hover{
     color:#1e1e1e;
   }
-   
- 
+
 /*********************************** BURGER MENU ICON ***************************/
 .nav-toggle{
     display:none;
