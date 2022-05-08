@@ -108,7 +108,7 @@ h1 {
 }
   
 .mat:hover {
-    background-color:#9ee7b9;
+    background-color:#1e8d6b;
     box-shadow: 2px 2px 2px 2px ;
 }
 
@@ -151,7 +151,7 @@ h1 {
 .div19 { grid-area: 5 / 3 / 6 / 4; }
 .div20 { grid-area: 5 / 4 / 6 / 5; }
 
-
+/************************slider ***************/
 /************************ Scroll Top arrow ******************************/
 #myBtn {
   position: fixed;
