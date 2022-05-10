@@ -53,8 +53,6 @@ nav {
   color: #1e8d6b;
 }
 
-.active {}
-
 /***for iconsSM******/
 .iconsSM>a>i {
   font-size: 2rem;
@@ -63,6 +61,17 @@ nav {
 }
 
 .iconsSM>a>i:hover {
+  color: #1e8d6b;
+}
+
+/***for iconsLog******/
+.iconsLog>a>i {
+  font-size: 2rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsLog>a>i:hover {
   color: #1e8d6b;
 }
 
@@ -104,18 +113,16 @@ h1 {
   left: 0.5rem;
   top: 0.9rem;
   font-size: 1.5rem;
-
 }
 
 .mat:hover {
   background-color: #1e8d6b;
-  box-shadow: 2px 2px 2px 2px;
 }
 
 .parent {
   width: 25rem;
   height: 44rem;
-  background-color: #1e1e1e;
+  background-color: #dcdcdc;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 0px;
