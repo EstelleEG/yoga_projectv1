@@ -223,13 +223,13 @@ p {
 
 /******************************* Btn Book a class ****************************************************/
 
-.btncv a {
+.btnBook a {
   /*link of btn*/
   text-decoration: none;
   color: whitesmoke;
 }
 
-.btncv {
+.btnBook {
   width: 14rem;
   height: 4rem;
   color: whitesmoke;
@@ -245,14 +245,14 @@ p {
   cursor: pointer;
 }
 
-.btncv:hover {
+.btnBook:hover {
   background-color: #1e8d6b;
   box-shadow: 2px 2px 2px 0px;
 }
 
 
 /********************************** Btn Subscribe ***************************************************/
-.btnportfolio {
+.btnSubscribe {
   width: 14rem;
   height: 4rem;
   color: whitesmoke;
@@ -269,11 +269,11 @@ p {
   transition: all 0.5s;
 }
 
-.btnportfolio:hover {
+.btnSubscribe:hover {
   background-color: #1e8d6b;
 }
 
-.btnportfolio span {
+.btnSubscribe span {
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -281,7 +281,7 @@ p {
   color: whitesmoke;
 }
 
-.btnportfolio span:after {
+.btnSubscribe span:after {
   content: '\00bb';
   position: absolute;
   color: whitesmoke;
@@ -291,11 +291,11 @@ p {
   transition: 0.5s;
 }
 
-.btnportfolio:hover span {
+.btnSubscribe:hover span {
   padding-right: 25px;
 }
 
-.btnportfolio:hover span:after {
+.btnSubscribe:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -440,7 +440,7 @@ p {
 }
 
 /****************************************** Cards yoga practices ***************************/
-.messervices {
+.yogaPractices {
   /*h1*/
   display: flex;
   justify-content: center;
@@ -451,7 +451,7 @@ p {
   font-family: 'Tangerine', cursive;
 }
 
-.messervices h2 {
+.yogaPractices h2 {
   /*h2*/
   font-size: 7rem;
   font-family: 'Tangerine', cursive;
