@@ -21,7 +21,7 @@ a {
 /* is parent of logo and tabs a*/
 nav {
   width: 100%;
-  height: 15rem;
+  height: 19rem;
   background-color: #f1efef;
   display: flex;
   justify-content: space-between;
@@ -84,13 +84,13 @@ nav {
 }
 
 /***for iconsLog******/
-.iconsLog i {
+.iconsLog>a>i {
   font-size: 2rem;
-  color: yellow;
+  color: #53b89a;
   margin-left: 1rem;
 }
 
-.iconsLog i:hover {
+.iconsLog>a>i:hover {
   color: #1e8d6b;
 }
 
@@ -640,7 +640,6 @@ placeholder {
 }
 
 /************************* FOOTER ************************************/
-
 .logofooter {
   width: 21rem;
   margin-left: 0rem;
@@ -661,7 +660,7 @@ footer img {
 }
 
 footer p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-right: 5rem;
 }
 
