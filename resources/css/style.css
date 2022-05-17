@@ -1,7 +1,7 @@
 /* GENERAL*/
 * {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
   font-family: 'Work Sans', sans-serif;
   scroll-behavior: smooth;
 }
@@ -85,7 +85,7 @@ nav {
 
 /***for iconsLog******/
 .iconsLog>a>i {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #53b89a;
   margin-left: 1rem;
 }
@@ -166,7 +166,7 @@ section {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 60rem;
+  height: 50rem;
   background-color: whitesmoke;
   flex-wrap: wrap;
   padding-top: 0rem;
@@ -194,11 +194,12 @@ section {
 }
 
 .textintro h3 {
-  font-size: 8rem;
+  font-size: 4rem;
+  font-weight: 600;
   /*font-family: 'Birthstone', cursive;*/
   /*font-family: 'Marck Script', cursive;*/
   /*font-family: 'Mrs Saint Delafield', cursive;*/
-  font-family: 'Tangerine', cursive;
+  /* font-family: 'Tangerine', cursive; */
 }
 
 .textintro h1 {
@@ -641,8 +642,7 @@ placeholder {
 
 /************************* FOOTER ************************************/
 .logofooter {
-  width: 21rem;
-  margin-left: 0rem;
+  width: 22rem;
 }
 
 footer {
@@ -652,40 +652,34 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: whitesmoke;
-}
-
-footer img {
-  width: 90px;
-  margin: 25px 0px 25px 25px;
+  height:20rem;
 }
 
 footer p {
   font-size: 1.3rem;
-  margin-right: 5rem;
 }
 
-.iconsSMfooter i {
+div.iconsSMfooter i {
   color: #53a89b;
   padding: 8px;
-  font-size: 2rem;
-  margin-right: 3rem;
+  font-size: 2.4rem;
+  margin-right: 1rem;
 }
 
-.iconsSMfooter {
+div.iconsSMfooter {
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 1rem;
 }
 
-.iconsSMfooter i:hover {
+div.iconsSMfooter i:hover {
   color: #1e1e1e;
 }
+
 
 /*********************************** BURGER MENU ICON ***************************/
 .nav-toggle {
   display: none;
 }
-
 
 /************************************ MEDIA QUERIES *********************************/
 /************************************ MEDIA QUERIES *********************************/

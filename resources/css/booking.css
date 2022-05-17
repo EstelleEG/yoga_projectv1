@@ -10,9 +10,6 @@ a {
   text-decoration: none;
 }
 
-body {
-  background: #f1efef;
-}
 
 /************************************ HEADER NAV *******************************************************/
 /* logo is child of nav */
@@ -25,8 +22,8 @@ body {
 /* is parent of logo and tabs a*/
 nav {
   width: 100%;
-  height: 15rem;
-  background-color: #dcdcdc;
+  height: 19rem;
+  background-color: #f1efef;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,13 +41,36 @@ nav {
 
 .tabs>a {
   text-decoration: none;
-  font-size: 1.3rem;
-  color: #53b89a;
+  font-size: 1.5rem;
+  color: #1e8d6b;
   display: block;
 }
 
 .tabs>a:hover {
-  color: #1e8d6b;
+  color: #53a89b;
+}
+
+.btnenrol button {
+  width: 10rem;
+  height: 3rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnenrol button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnenrol button:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
 }
 
 /***for iconsSM******/
@@ -66,7 +86,7 @@ nav {
 
 /***for iconsLog******/
 .iconsLog>a>i {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #53b89a;
   margin-left: 1rem;
 }
@@ -246,10 +266,8 @@ h1 {
 }
 
 /************************* FOOTER ************************************/
-
 .logofooter {
-  width: 21rem;
-  margin-left: 0rem;
+  width: 22rem;
 }
 
 footer {
@@ -258,32 +276,31 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #dcdcdc;
-}
-
-footer img {
-  width: 90px;
-  margin: 25px 0px 25px 25px;
+  background-color: whitesmoke;
+  height:20rem;
 }
 
 footer p {
-  font-size: 1rem;
-  margin-right: 5rem;
+  font-size: 1.3rem;
 }
 
-.iconsSMfooter i {
+div.iconsSMfooter i {
   color: #53a89b;
   padding: 8px;
-  font-size: 2rem;
-  margin-right: 3rem;
+  font-size: 2.4rem;
+  margin-right: 1rem;
 }
 
-.iconsSMfooter {
+div.iconsSMfooter {
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 1rem;
 }
 
-.iconsSMfooter i:hover {
-  color: #1e8d6b;
+div.iconsSMfooter i:hover {
+  color: #1e1e1e;
+}
+
+/*********************************** BURGER MENU ICON ***************************/
+.nav-toggle {
+  display: none;
 }

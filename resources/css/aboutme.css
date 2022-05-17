@@ -10,77 +10,90 @@ a{
     text-decoration: none;
 }
 
-  /************************************ HEADER NAV *******************************************************/
-  /* logo is child of nav */
-  .logo {        
-    width:20rem;
-    margin-left: 3rem;
-    padding-bottom: 5rem;
-  }
-    
-  /* is parent of logo and tabs a*/
-  nav{         
-    width:100%;
-    height:15rem;
-    background-color:#dcdcdc;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap:wrap;
-  }
-   
-  /*a are children of tabs*/
-  .tabs{      /* is child of nav and parent of the a*/
-    display: flex;
-    width:60%;
-    justify-content: space-around;
-  
-  }
-  
-  .tabs>a{      
-    text-decoration: none;
-    font-size: 1.5rem;
-    color:#1e8d6b;
-    display:block;
-  }
-  
-  .tabs>a:hover{  
-    color:#53a89b;
-  }
+/************************************ HEADER NAV *******************************************************/
+/* logo is child of nav */
+.logo {
+  width: 20rem;
+  margin-left: 3rem;
+  padding-bottom: 5rem;
+}
 
-  .btnenrol button{
-    width:10rem;
-    height: 3rem;
-    color: whitesmoke;
-    background-color: #53b89a;
-    border-radius: 0.5rem;
-    border:none;
-    margin-left: 0.5rem;
-    font-size: 1.3rem;
-    margin-right: 1%;
-    cursor: pointer;
-  }
+/* is parent of logo and tabs a*/
+nav {
+  width: 100%;
+  height: 19rem;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  .btnenrol button a{  
-    text-decoration: none;
-    color:whitesmoke;
-  }
-  
-  .btnenrol button:hover {
-    background-color: #1e8d6b;
-    box-shadow: 2px 2px 2px 0px;
-  }
+/*a are children of tabs*/
+.tabs {
+  /* is child of nav and parent of the a*/
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
 
-  /***for iconsSM******/
-  .iconsSM>a>i{      
-    font-size: 2rem;
-    color:#53b89a;
-    margin-left: 1rem;
-  }
-  
-  .iconsSM>a>i:hover{      
-    color:#1e8d6b;
-  }
+}
+
+.tabs>a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #1e8d6b;
+  display: block;
+}
+
+.tabs>a:hover {
+  color: #53a89b;
+}
+
+.btnenrol button {
+  width: 10rem;
+  height: 3rem;
+  color: whitesmoke;
+  background-color: #53b89a;
+  border-radius: 0.5rem;
+  border: none;
+  margin-left: 0.5rem;
+  font-size: 1.3rem;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.btnenrol button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.btnenrol button:hover {
+  background-color: #1e8d6b;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+/***for iconsSM******/
+.iconsSM>a>i {
+  font-size: 2rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsSM>a>i:hover {
+  color: #1e8d6b;
+}
+
+/***for iconsLog******/
+.iconsLog>a>i {
+  font-size: 1.9rem;
+  color: #53b89a;
+  margin-left: 1rem;
+}
+
+.iconsLog>a>i:hover {
+  color: #1e8d6b;
+}
+
   /****************************************** MAIN SECTION ******************************************/
   section{
       display:flex;
@@ -235,45 +248,40 @@ font-size: 1.5rem;;
 }
 
 /************************* FOOTER ************************************/
-.logofooter {        
-  width:21rem;
-  margin-left: 0rem;
+.logofooter {
+  width: 22rem;
 }
-  
+
 footer {
-    display:flex;      /* align items horizontally */
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    background-color: whitesmoke;
-  }
-    
-  footer img{
-    width: 90px;
-    margin: 25px 0px 25px 25px;
-  }
-    
-  footer p{
-    font-size: 1rem;
-    margin-right: 5rem;
-  }
-    
-  .iconsSMfooter i{
-    color: #53a89b;
-    padding: 8px;
-    font-size: 2rem;
-    margin-right: 3rem;
-  }
-    
-  .iconsSMfooter{     
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 1rem;
-  }
-  
-  .iconsSMfooter i:hover{
-    color:#1e1e1e;
-  }
+  display: flex;
+  /* align items horizontally */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  height:20rem;
+}
+
+footer p {
+  font-size: 1.3rem;
+}
+
+div.iconsSMfooter i {
+  color: #53a89b;
+  padding: 8px;
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+div.iconsSMfooter {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+div.iconsSMfooter i:hover {
+  color: #1e1e1e;
+}
+
 
   /*********************************** BURGER MENU ICON ***************************/
 .nav-toggle{
